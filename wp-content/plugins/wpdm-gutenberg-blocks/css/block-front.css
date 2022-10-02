@@ -1,0 +1,109 @@
+
+.wp-block-download-manager-panel.w3eden .panel-heading[data-toggle="collapse"]{
+    cursor: pointer !important;
+    position: relative;
+}
+.wp-block-download-manager-panel.w3eden .panel-heading[data-toggle="collapse"]:after{
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    right: 15px;
+    line-height: 40px;
+    top: 0;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+    content: "\f078";
+    color: rgba(0,0,0,0.3) !important;
+}
+
+.wp-block-download-manager-panel.w3eden .panel-heading[aria-expanded="true"]:after{
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    right: 15px;
+    line-height: 40px;
+    top: 0;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 900;
+    content: "\f077";
+}
+
+.wp-block-download-manager-panel.w3eden .panel-heading.collapsed {
+    border-bottom: 0;
+    border-radius: 3px;
+}
+.wp-block-download-manager-panel.w3eden .panel{
+    margin-bottom: 5px;
+}
+
+/** Call To Action **/
+.w3eden .jumbotron{
+    margin: 0 !important;
+}
+.w3eden .jumbotron .title{
+    margin: 0;
+    padding: 0 0 10px 0;
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+}
+.w3eden .jumbotron .content{
+    margin: 0;
+    padding: 0 0 20px 0;
+    letter-spacing: 0.5px;
+}
+.wp-block-download-manager-call2action.w3eden {
+    margin-top: 1px !important;
+}
+
+.w3eden .bg-auto, .w3eden.bg-auto{ background-size: auto !important; }
+.w3eden .bg-contain, .w3eden.bg-contain{ background-size: contain !important; }
+.w3eden .bg-cover, .w3eden.bg-cover{ background-size: cover !important; }
+.w3eden .bg-100, .w3eden.bg-100{ background-size: 100% 100% !important; }
+.w3eden .bg-no-repeat, .w3eden.bg-no-repeat{ background-repeat: no-repeat !important; }
+.w3eden .bg-repeat, .w3eden.bg-repeat{ background-repeat: repeat !important; }
+.w3eden .bg-repeat-x, .w3eden.bg-repeat-x{ background-repeat: repeat-x !important; }
+.w3eden .bg-repeat-y, .w3eden.bg-repeat-y{ background-repeat: repeat-y !important; }
+
+.w-32{ width: 32px !important; }
+.w-48{ width: 48px !important; }
+.w-64{ width: 64px !important; }
+.hover-card .author-name{ font-size: 11pt; font-weight:600; letter-spacing: 0.8px; margin-top: 4px; }
+.hover-card .card-text{
+    display: block;
+    height: 78px;
+}
+.card.hover-card {
+    border: 1px solid rgba(0,0,0,0.05);
+    border-radius: 6px;
+    overflow: hidden;
+
+}
+.hover-card .card-footer{
+    background: #ffffff;
+    border-top: 1px solid rgba(0,0,0,0.05);
+}
+.card.hover-card .chimg {
+    height: 200px;
+    overflow: hidden;
+    background: linear-gradient(45deg, #4966d6, #9d69d6);
+    transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+}
+.card.hover-card .chimg img{
+    transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+}
+.card.hover-card:hover .chimg{
+    background: linear-gradient(45deg, #6c56d6, #9d69d6);
+}
+.card.hover-card:hover .chimg img{
+    transition: all ease-in-out 500ms;
+    -moz-transition: all ease-in-out 500ms;
+    transform: scale(1.5);
+}
